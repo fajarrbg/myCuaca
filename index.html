@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Cuaca</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body data-mode="day">
+
+    <div class="weather-card" data-mode="day">
+
+      <header class="header">
+        <div class="logo">MyCuaca</div>
+        <div class="search-box">
+          <input type="text" id="search-input" placeholder="Cari kota / daerah...">
+          <button id="search-btn">Cari</button>
+        </div>
+      </header>
+
+
+      
+      <div class="sun"></div>
+      <div class="moon"></div>
+
+      <div class="weather-top">
+        <h2 class="city">Pekanbaru</h2>
+        <div class="date">---</div>
+        <div class="details-top">
+          <div class="humidity">---%</div>
+          <div class="wind">---km/h</div>
+        </div>
+      </div>
+
+      <div class="weather-center">
+        <div class="weather-icon"></div>
+        <div class="temperature">---℃</div>
+      </div>
+
+      <div id="forecast">
+        <div class="forecast-grid">
+
+          <div class="forecast-item">
+            <div class="weather-day">---</div>
+            <div class="weather-icon">---</div>
+            <div class="temperature-card">---</div>
+          </div>
+
+          <div class="forecast-item">
+            <div class="weather-day">---</div>
+            <div class="weather-icon">---</div>
+            <div class="temperature-card">---</div>
+          </div>
+
+          <div class="forecast-item">
+            <div class="weather-day">---</div>
+            <div class="weather-icon">---</div>
+            <div class="temperature-card">---</div>
+          </div>
+          
+        </div>
+      </div>
+
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
